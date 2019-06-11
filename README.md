@@ -4,7 +4,7 @@
 
 # Social Media Project  
 - Made With Vue.js,Node.js,MongoDB and Express!
-
+- By [Jacques Andre](https://github.com/jacques-andre) and [Isaque Brandao](https://github.com/Isaque-mb)
 ## How to run our project
 
 **Backend (node.js)**
