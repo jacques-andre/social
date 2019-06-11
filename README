@@ -1,13 +1,23 @@
-How to run the Vue Js server:
+![emoji](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/96/male-technologist_1f468-200d-1f4bb.png)
+# Social Media Project  
+- Made With Vue.js,Node.js,MongoDB and Express!
 
-- CD into the app folder, this is were all vue related files and features will be stored
-- type in: npm i
-- type in: npm run serve
+## How to run our project
 
-How to run the backend node server:
+**Backend (node.js)**
+Where all of our register and api is stored (localhost:5000)
 
-- Make sure you're in the root
-- type in: npm i
-- type in: npm run dev
+ - Be in the root of the directory then use `npm install` to fetch all packages
+- Then run the backend server by using `npm run dev`
 
-I know I am a god
+**Front End (Vue.js)**
+Where all of our post app is stored (localhost:8080).
+
+- CD into the app folder and run `npm install`
+- Then run `npm run serve` and navigate to localhost:8080
+
+
+
+
+
+
