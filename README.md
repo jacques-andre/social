@@ -1,5 +1,6 @@
-
+<p align="center">
 ![emoji](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/96/male-technologist_1f468-200d-1f4bb.png)
+</p>
 # Social Media Project  
 - Made With Vue.js,Node.js,MongoDB and Express!
 
