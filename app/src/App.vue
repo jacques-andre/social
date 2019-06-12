@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue Logo" src="./assets/logo.png">
+    <!-- <img alt="Vue Logo" src="./assets/logo.png"> -->
     <PostComponent/>
   </div>
 </template>
