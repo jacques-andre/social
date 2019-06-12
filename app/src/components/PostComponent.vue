@@ -24,22 +24,24 @@
       <button v-on:click="createPost" id="button-post">Post</button>
     </div>
     <p class="error" v-if="error">{{ error }}</p>
-    <div class="post-container">
-      <div
-        class="post"
-        v-for="(post,index) in posts"
-        v-bind:item="post"
-        v-bind:index="index"
-        v-bind:key="post._id"
-      >
-        <div class="user-info">
-          <p>
-            <span id="user-name">@user:</span>
-          </p>
-          <span id="moment">{{moment().format("MMM Do") }}</span>
+    <div class="flip">
+      <div class="post-container">
+        <div
+          class="post"
+          v-for="(post,index) in posts"
+          v-bind:item="post"
+          v-bind:index="index"
+          v-bind:key="post._id"
+        >
+          <div class="user-info">
+            <p>
+              <span id="user-name">@xyz:</span>
+            </p>
+            <span id="moment">{{moment().format("MMM Do") }}</span>
+          </div>
+          <!-- <a class="deleteX" v-on:click="deletePost(post._id)">x</a> -->
+          <p class="post-text">{{ post.text }}</p>
         </div>
-        <!-- <a class="deleteX" v-on:click="deletePost(post._id)">x</a> -->
-        <p class="post-text">{{ post.text }}</p>
       </div>
     </div>
   </div>
@@ -128,5 +130,9 @@ textarea {
 }
 button {
   cursor: pointer;
+}
+.post-container {
+  display: flex;
+  flex-direction: column-reverse;
 }
 </style>
