@@ -10,7 +10,8 @@
 **Backend (node.js)**
 Where all of our register and api is stored (localhost:5000)
 
- - Be in the root of the directory then use `npm install` to fetch all packages
+- Make your own keys.js file in config this includes a [MongoDB Atlas connection string](https://www.mongodb.com/cloud/atlas).
+- Be in the root of the directory then use `npm install` to fetch all packages
 - Then run the backend server by using `npm run dev`
 
 **Front End (Vue.js)**
